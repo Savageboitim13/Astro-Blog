@@ -1,0 +1,26 @@
+Astro
+
+Pages `.astro`
+Markdown `.md`
+.MD Frontmatter - Information about my .MD file
+
+Dynamic Content
+- Variables
+- Conditionally render elements
+- Map render -> {skills.map((skill) => <li>{skill}</li>)}
+- CSS Variables -> define:vars={{skillColor}}
+- Global styles < Local styles
+- Components (import)
+- const { prop } = Astro.props; - props
+- Scripts (import)
+- Layout Components (<slot />)
+- frontmatter props -> layout: path/to/MDlayout
+- Layout nesting
+
+Astro API
+- Dynamically display pages
+- Dynamic page rounting (params, props)
+
+
+Functions
+slice, map, filter, includes, lambda
