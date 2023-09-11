@@ -1,6 +1,16 @@
 html {
     background-color: #f1f5f9;
     font-family: sans-serif;
+    transition: all .3s ease;
+}
+
+html.dark {
+    background-color: #0D0950;
+    color: #FFF;
+}
+
+.dark .nav-links {
+    color: #FFF;
 }
 
 body {
